@@ -29,6 +29,58 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/img\/alexmariewhite_a_logo_on_offwhite_background_garden_tools_and_v_8a5402c8-9049-429f-813b-a08546d90f55.png" : {
+      "ft" : 32768,
+      "iS" : 581676,
+      "oA" : 0,
+      "oAP" : "\/img\/alexmariewhite_a_logo_on_offwhite_background_garden_tools_and_v_8a5402c8-9049-429f-813b-a08546d90f55.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/alexmariewhite_illustrations_of_suburban_gardening_in_washingto_30fec4d2-13b2-4c7f-825c-8a7e55d515f6.png" : {
+      "ft" : 32768,
+      "iS" : 2129700,
+      "oA" : 0,
+      "oAP" : "\/img\/alexmariewhite_illustrations_of_suburban_gardening_in_washingto_30fec4d2-13b2-4c7f-825c-8a7e55d515f6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/alexmariewhite_illustrations_of_suburban_gardening_in_washingto_9128185f-77ae-414e-b03d-2d03f1c1557e.png" : {
+      "ft" : 32768,
+      "iS" : 1858464,
+      "oA" : 0,
+      "oAP" : "\/img\/alexmariewhite_illustrations_of_suburban_gardening_in_washingto_9128185f-77ae-414e-b03d-2d03f1c1557e.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/alexmariewhite_logo_offwhite_vegetables_flowers_sunrays_84d3fcdf-d3b1-42e9-9df8-be7019134419.png" : {
+      "ft" : 32768,
+      "iS" : 876699,
+      "oA" : 0,
+      "oAP" : "\/img\/alexmariewhite_logo_offwhite_vegetables_flowers_sunrays_84d3fcdf-d3b1-42e9-9df8-be7019134419.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -255,7 +307,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 713229350.80517697,
-    "displayValue" : "ShorelineClimateChangeGardening",
+    "displayValue" : "ShorelineClimateResilientGardening",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-brick",
     "iconImageWasSetByUser" : 0,
