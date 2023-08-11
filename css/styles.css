@@ -13,6 +13,8 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --background: #3E494E;
+  --font: #F9F9F9;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -327,9 +329,17 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: var(--background);
+}
+
 /* =============
     Typography
 ============= */
+body {
+  color: var(--font);
+}
+
 /* =============
     Buttons
 ============= */
