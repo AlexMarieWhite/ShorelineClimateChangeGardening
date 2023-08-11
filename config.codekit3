@@ -17,6 +17,14 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/becomeanadvocate.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/becomeanadvocate.html",
+      "oF" : 0
+    },
     "\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -28,6 +36,30 @@
       "oAP" : "\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/footer.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/footer.html",
+      "oF" : 0
+    },
+    "\/freegardeningresources.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/freegardeningresources.html",
+      "oF" : 0
+    },
+    "\/header.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/header.html",
+      "oF" : 0
     },
     "\/img\/alexmariewhite_a_logo_on_offwhite_background_garden_tools_and_v_8a5402c8-9049-429f-813b-a08546d90f55.png" : {
       "ft" : 32768,
@@ -297,6 +329,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/wheretobuylocally.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/wheretobuylocally.html",
+      "oF" : 0
     }
   },
   "hooks" : [
