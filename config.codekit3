@@ -7,7 +7,7 @@
       "uuidString" : "DC7DD80C-4A96-4992-99AD-93AFF83B6C9F"
     }
   ],
-  "creatorBuild" : "34510",
+  "creatorBuild" : "34513",
   "files" : {
     "\/.gitattributes" : {
       "cB" : 0,
@@ -36,14 +36,6 @@
       "oAP" : "\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/footer.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/footer.html",
-      "oF" : 0
     },
     "\/freegardeningresources.html" : {
       "cB" : 0,
@@ -1263,9 +1255,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
