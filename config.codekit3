@@ -53,14 +53,6 @@
       "oAP" : "\/freegardeningresources.html",
       "oF" : 0
     },
-    "\/header.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/header.html",
-      "oF" : 0
-    },
     "\/img\/alexmariewhite_a_logo_on_offwhite_background_garden_tools_and_v_8a5402c8-9049-429f-813b-a08546d90f55.png" : {
       "ft" : 32768,
       "iS" : 581676,
@@ -105,6 +97,32 @@
       "iS" : 876699,
       "oA" : 0,
       "oAP" : "\/img\/alexmariewhite_logo_offwhite_vegetables_flowers_sunrays_84d3fcdf-d3b1-42e9-9df8-be7019134419.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/homepageimage.png" : {
+      "ft" : 32768,
+      "iS" : 1699791,
+      "oA" : 0,
+      "oAP" : "\/img\/homepageimage.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 930784,
+      "oA" : 0,
+      "oAP" : "\/img\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
