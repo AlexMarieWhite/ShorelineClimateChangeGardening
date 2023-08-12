@@ -15,26 +15,27 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 5% auto 5%;
     gap: 10px;
-    background-color: #2196F3;
     padding: 10px;
-
 }
 
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
   }
 
+
+
   .header {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
+    text-align: left;
   }
 
   .footer {
-    grid-row-start: 6;
-    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
   }
