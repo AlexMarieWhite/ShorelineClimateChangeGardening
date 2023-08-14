@@ -365,6 +365,22 @@ body {
   color: var(--font);
 }
 
+@media only screen and (max-width: 62em) {
+  h1 {
+    font-size: 1.25em;
+  }
+  p {
+    font-size: 0.75em;
+  }
+}
+@media only screen and (min-width: 63em) {
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.25em;
+  }
+}
 /* =============
     Buttons
 ============= */
