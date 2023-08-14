@@ -410,17 +410,27 @@ textarea {
 /* =============
     Header
 ============= */
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 47em) {
   .header {
     position: sticky;
     top: 0;
     padding: 1%;
   }
   .header img {
-    width: 25%;
+    width: 20%;
   }
 }
-@media only screen and (min-width: 63em) {
+@media only screen and (min-width: 48em) {
+  .header {
+    position: sticky;
+    top: 0;
+    padding: 1%;
+  }
+  .header img {
+    max-width: 15%;
+  }
+}
+@media only screen and (min-width: 62em) {
   .header {
     position: sticky;
     top: 0;
