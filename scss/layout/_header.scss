@@ -11,10 +11,12 @@
             width: 20%;
         }
         padding: 1%;
+        background-color: var(--background);
+        opacity: .95;
     }
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 48em) and (max-width: 62em) {
     .header {
         position: sticky; 
         top: 0;
@@ -22,13 +24,13 @@
             max-width: 15%;
         }
         padding: 1%;
+        background-color: var(--background);
+        opacity: .95;
     }
 }
 
 @media only screen and (min-width: 62em) {
     .header {
-        position: sticky; 
-        top: 0;
         img {
             max-width: 10%;
         }
