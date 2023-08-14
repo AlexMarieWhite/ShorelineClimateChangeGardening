@@ -447,6 +447,7 @@ textarea {
   }
   .header .dropbtnm {
     color: black;
+    background-color: var(--buttonhover);
     padding: 16px;
     font-size: 16px;
     border-radius: 5px;
