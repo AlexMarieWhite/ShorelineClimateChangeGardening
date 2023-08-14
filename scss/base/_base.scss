@@ -32,6 +32,8 @@ p {
     grid-column-start: 1;
     grid-column-end: 4;
     text-align: left;
+    background-color: var(--background);
+    opacity: .95;
   }
 
   .footer {

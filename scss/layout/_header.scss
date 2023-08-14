@@ -3,14 +3,24 @@
 ============= */
 
 
-@media only screen and (max-width: 62em) and (orientation: landscape) {
-    header {
-
+@media only screen and (max-width: 62em) {
+    .header {
+        position: sticky; 
+        top: 0;
+        img {
+            width: 25%;
+        }
+        padding: 1%;
     }
 }
 
 @media only screen and (min-width: 63em) {
-    header {
-
+    .header {
+        position: sticky; 
+        top: 0;
+        img {
+            max-width: 10%;
+        }
+        padding: 1%;
     }
 }
