@@ -41,22 +41,22 @@ p {
   }
 
   #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 5%; /* Place the button at the bottom of the page */
-    right: 5%; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: var(--font); /* Set a background color */
-    color: #000000; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-    opacity: .75;
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: var(--font);
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: .9;
   }
-
+  
   #myBtn:hover {
-    background-color: var(--buttonhover); /* Add a dark-grey background on hover */
+    background-color: var(--buttonhover);
   }

@@ -360,24 +360,24 @@ body {
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 5%; /* Place the button at the bottom of the page */
-  right: 5%; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: var(--font); /* Set a background color */
-  color: #000000; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-  opacity: 0.75;
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: var(--font);
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  opacity: 0.9;
 }
 
 #myBtn:hover {
-  background-color: var(--buttonhover); /* Add a dark-grey background on hover */
+  background-color: var(--buttonhover);
 }
 
 /* =============
@@ -433,6 +433,7 @@ textarea {
 @media only screen and (max-width: 47em) {
   .header {
     position: sticky;
+    display: inline-flex;
     top: 0;
     padding: 1%;
     background-color: var(--background);
@@ -445,6 +446,7 @@ textarea {
 @media only screen and (min-width: 48em) and (max-width: 62em) {
   .header {
     position: sticky;
+    display: inline-flex;
     top: 0;
     padding: 1%;
     background-color: var(--background);
@@ -459,7 +461,59 @@ textarea {
     padding: 1%;
   }
   .header img {
+    float: left;
     max-width: 10%;
+  }
+  .header .horizontalnavigationmenu li {
+    float: left;
+    margin-top: 5%;
+    list-style-type: none;
+  }
+  .header .horizontalnavigationmenu a {
+    display: block;
+    padding: 8px;
+  }
+  .header .horizontalnavigationmenu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 5%;
+    overflow: hidden;
+    background-color: var(--matteblue);
+  }
+  .header .horizontalnavigationmenu li a, .header .horizontalnavigationmenu .dropbtn {
+    display: inline-block;
+    color: var(--offwhite);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--white);
+  }
+  .header .horizontalnavigationmenu li a:hover, .header .horizontalnavigationmenu .dropdown:hover .dropbtn {
+    background-color: var(--mattepurpledark);
+  }
+  .header .horizontalnavigationmenu li.dropdown {
+    display: inline-block;
+  }
+  .header .horizontalnavigationmenu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--offwhite);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .header .horizontalnavigationmenu .dropdown-content a {
+    color: var(--black);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .header .horizontalnavigationmenu .dropdown-content a:hover {
+    background-color: var(--mattepurplelight);
+  }
+  .header .horizontalnavigationmenu .dropdown:hover .dropdown-content {
+    display: block;
   }
 }
 /* =============
