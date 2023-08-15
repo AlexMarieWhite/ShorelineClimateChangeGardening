@@ -39,37 +39,27 @@
     
         </div>
 
-        <div class="dropdownm" style="float:right;">
-            
-            <button class="dropbtnm"><span style='font-size:2em;'>&#127804;</span><span style='font-size:2em;'>Menu</span></button>
 
-            <div class="dropdown-contentm">
-            <a href="index.html">Home</a>
-
-            <div class="accordion">
-                <div>
-                  <input type="checkbox" id="section1" class="accordion__input">
-                  <label for="section1" class="accordion__label">Guides</label>
-                  <div class="accordion__content">
-                    <ul>
-                        <li><a href="expedia.html">Apartment Patio Gardening</a></li>
-                        <li> <a href="augmentedreality.html">Xeriscaping</a></li>
-                        <li><a href="capstone.html">Rain Gardens</a></li>
-                        <li><a href="expedia.html">Meadowscapes & Clover Lawns</a></li>
-                        <li><a href="augmentedreality.html">Native Planting</a></li>
-                        <li><a href="capstone.html">Summer Watering</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            <a href="#">Free Gardening Resources</a>
-            <a href="#">Where to Buy Locally</a>
-            <a href="#">Become an Advocate</a>
-            <a href="#">About this Website</a>
+        <div class="dropdown">
+            <button class="dropbtn">Home</button>
+            <div class="dropdown-content">
+              <a href="#">Guides</a>
+                <ul>
+                    <li><a href="expedia.html">Apartment Patio Gardening</a></li>
+                    <li> <a href="augmentedreality.html">Xeriscaping</a></li>
+                    <li><a href="capstone.html">Rain Gardens</a></li>
+                    <li><a href="expedia.html">Meadowscapes & Clover Lawns</a></li>
+                    <li><a href="augmentedreality.html">Native Planting</a></li>
+                    <li><a href="capstone.html">Summer Watering</a></li>
+                </ul>
+                <a href="#">Free Gardening Resources</a>
+                <a href="#">Where to Buy Locally</a>
+                <a href="#">Become an Advocate</a>
+                <a href="#">About this Website</a>
             </div>
-
-
           </div>
+          
+        </div>
 
     </header>
 
@@ -107,24 +97,24 @@
 
 <script>
     // Get the button
-let mybutton = document.getElementById("myBtn");
+    let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
 </script>
 
 </body>

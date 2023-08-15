@@ -394,6 +394,9 @@ body {
   p {
     font-size: 0.75em;
   }
+  .dropdown {
+    font-size: 1em;
+  }
 }
 @media only screen and (min-width: 63em) {
   h1 {
@@ -438,6 +441,13 @@ textarea {
     padding: 1%;
     background-color: var(--background);
     opacity: 0.95;
+    /* Style The Dropdown Button */
+    /* The container <div> - needed to position the dropdown content */
+    /* Dropdown Content (Hidden by Default) */
+    /* Links inside the dropdown */
+    /* Change color of dropdown links on hover */
+    /* Show the dropdown menu on hover */
+    /* Change the background color of the dropdown button when the dropdown content is shown */
   }
   .header img {
     width: 25%;
@@ -445,70 +455,41 @@ textarea {
   .header .horizontalnavigationmenu {
     display: none;
   }
-  .header .dropbtnm {
-    color: black;
+  .header .dropbtn {
     background-color: var(--buttonhover);
+    color: black;
     padding: 16px;
-    font-size: 16px;
+    border: none;
     border-radius: 5px;
-    cursor: pointer;
   }
-  .header .dropdownm {
+  .header .dropdown {
     position: relative;
     display: inline-block;
   }
-  .header .dropdown-contentm {
+  .header .dropdown-content {
     display: none;
     position: absolute;
-    right: 0;
     background-color: #f9f9f9;
-    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    min-width: 300px;
+    border-radius: 5px;
+    padding: 8px;
   }
-  .header .dropdown-contentm a {
+  .header .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  .header .dropdown-contentm a:hover {
+  .header .dropdown-content a:hover {
     background-color: var(--buttonhover);
   }
-  .header .dropdownm:hover .dropdown-contentm {
+  .header .dropdown:hover .dropdown-content {
     display: block;
   }
-  .header .accordion {
-    max-width: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: purple;
-  }
-  .header .accordion__label, .header .accordion__content {
-    padding: 14px 20px;
-  }
-  .header .accordion__label {
-    display: block;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-    transition: background-color 0.1s;
-  }
-  .header .accordion__label:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  .header .accordion__content {
-    background: white;
-    line-height: 1.6;
-    font-size: 0.85em;
-    display: none;
-  }
-  .header .accordion__input {
-    display: none;
-  }
-  .header .accordion__input:checked ~ .accordion__content {
-    display: block;
+  .header .dropdown:hover .dropbtn {
+    background-color: var(--buttonhover);
   }
 }
 @media only screen and (min-width: 48em) and (max-width: 62em) {
@@ -519,6 +500,13 @@ textarea {
     padding: 1%;
     background-color: var(--background);
     opacity: 0.95;
+    /* Style The Dropdown Button */
+    /* The container <div> - needed to position the dropdown content */
+    /* Dropdown Content (Hidden by Default) */
+    /* Links inside the dropdown */
+    /* Change color of dropdown links on hover */
+    /* Show the dropdown menu on hover */
+    /* Change the background color of the dropdown button when the dropdown content is shown */
   }
   .header img {
     max-width: 15%;
@@ -526,38 +514,41 @@ textarea {
   .header .horizontalnavigationmenu {
     display: none;
   }
-  .header .dropbtnm {
-    color: black;
+  .header .dropbtn {
     background-color: var(--buttonhover);
+    color: black;
     padding: 16px;
-    font-size: 16px;
+    border: none;
     border-radius: 5px;
-    cursor: pointer;
-    display: inline-block;
   }
-  .header .dropdownm {
+  .header .dropdown {
     position: relative;
     display: inline-block;
   }
-  .header .dropdown-contentm {
+  .header .dropdown-content {
     display: none;
     position: absolute;
-    right: 0;
     background-color: #f9f9f9;
-    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    min-width: 300px;
+    border-radius: 5px;
+    padding: 8px;
   }
-  .header .dropdown-contentm a {
+  .header .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  .header .dropdown-contentm a:hover {
+  .header .dropdown-content a:hover {
     background-color: var(--buttonhover);
   }
-  .header .dropdownm:hover .dropdown-contentm {
+  .header .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .header .dropdown:hover .dropbtn {
+    background-color: var(--buttonhover);
   }
 }
 @media only screen and (min-width: 62em) {
@@ -568,7 +559,7 @@ textarea {
     float: left;
     max-width: 15%;
   }
-  .header .dropdownm {
+  .header .dropdown {
     display: none;
   }
   .header .horizontalnavigationmenu li {
