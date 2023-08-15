@@ -26,7 +26,6 @@
           font-size: 16px;
           border-radius: 5px;
           cursor: pointer;
-          display: inline-block;
         }
         
         .dropdownm {
@@ -68,7 +67,7 @@
         display: inline-block;
         top: 0;
         img {
-            max-width: 25%;
+            max-width: 15%;
         }
         padding: 1%;
         background-color: var(--background);
@@ -124,7 +123,7 @@
     .header {
         img {
             float: left;
-            max-width: 15%;
+            max-width: 20%;
         }
     .dropdownm {
       display: none;

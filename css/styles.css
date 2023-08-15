@@ -452,7 +452,6 @@ textarea {
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
-    display: inline-block;
   }
   .header .dropdownm {
     position: relative;
@@ -489,7 +488,7 @@ textarea {
     opacity: 0.95;
   }
   .header img {
-    max-width: 25%;
+    max-width: 15%;
   }
   .header .horizontalnavigationmenu {
     display: none;
@@ -534,7 +533,7 @@ textarea {
   }
   .header img {
     float: left;
-    max-width: 15%;
+    max-width: 20%;
   }
   .header .dropdownm {
     display: none;
