@@ -1,4 +1,4 @@
-document.getElementById("myBtn").onclick = function() {ScrollToTop()};
+document.getElementById("myBtn").addEventListener("click", function() {ScrollToTop()});
 window.onscroll = function() {ShowHideBackToTop()};
 
 function ShowHideBackToTop() {
