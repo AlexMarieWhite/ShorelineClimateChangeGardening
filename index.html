@@ -75,7 +75,7 @@
 
         <p>This website is a community information hub aimed at centralizing resources and sharing climate-friendly gardening advice for residents of Shoreline, Washington.</p>
         
-        <button onclick="scrollToTop()" id="myBtn" title="Go to top"><span style='font-size:25px;'>&#x1f430;</span>   Back to Top   <span style='font-size:25px;'>&#x1F955;</span></button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span style='font-size:25px;'>&#x1f430;</span>   Back to Top   <span style='font-size:25px;'>&#x1F955;</span></button>
 
     </div>
 
@@ -98,21 +98,25 @@
 </body>
 
 <script>
-    function scrollToTop() {
-        document.body.scrollTop = 0;
-        document.documentElement.scollTop = 0;
-    }
+   // Get the button
+let mybutton = document.getElementById("myBtn");
 
-    function showHideBackButton() {
-        let backButton = document.getElementById("myBtn");
-        if (document.body.scrollTop > 20 || document.documentElement.scollTop > 20) {
-            backButton.style.display = "block";
-        } else {
-            backButton.style.display = "none";
-        }
-    }
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-    window.onscroll = function() {showHideBackButton();}
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 </script>
 
 </html>
