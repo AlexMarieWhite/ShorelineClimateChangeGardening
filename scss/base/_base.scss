@@ -2,13 +2,10 @@
     Base
 ============= */
 
+//global styling
 
 body {
     background-color: var(--background);
-
-}
-
-p {
 
 }
 
@@ -35,8 +32,6 @@ img {
     font-size: 30px;
   }
 
-
-
   .header {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -48,6 +43,9 @@ img {
     grid-column-end: 4;
     text-align: center;
   }
+
+
+//back to top button styling
 
   #myBtn {
     display: none;
@@ -70,18 +68,14 @@ img {
     background-color: var(--buttonhover);
   }
 
-
-.tabs {
-
-  margin: 2%;
+  //accordian styling
   
   input {
     position: absolute;
     opacity: 0;
     z-index: -1;
   }
-  
-  // Layout
+
   .row {
     display:flex;
     .col {
@@ -118,7 +112,7 @@ img {
         content: "\276F";
         width: 1em;
         height: 1em;
-        text-align: center;
+        text-align: left;
         transition: all .35s;
       }
     }
@@ -153,7 +147,6 @@ img {
     ~ .tab-content {
       max-height: 100vh;
       padding: 1em;
+      text-align: left;
     }
   }
-  
-}

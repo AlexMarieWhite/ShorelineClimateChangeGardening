@@ -390,36 +390,36 @@ img {
   background-color: var(--buttonhover);
 }
 
-.tabs {
-  margin: 2%;
-  /* Accordion styles */
-}
-.tabs input {
+input {
   position: absolute;
   opacity: 0;
   z-index: -1;
 }
-.tabs .row {
+
+.row {
   display: flex;
 }
-.tabs .row .col {
+.row .col {
   flex: 1;
 }
-.tabs .row .col:last-child {
+.row .col:last-child {
   margin-left: 1em;
 }
-.tabs .tabs {
+
+/* Accordion styles */
+.tabs {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
 }
-.tabs .tab {
+
+.tab {
   width: 100%;
   border-radius: 5px;
   color: white;
   overflow: hidden;
 }
-.tabs .tab-label {
+.tab-label {
   display: flex;
   justify-content: space-between;
   padding: 1em;
@@ -428,24 +428,24 @@ img {
   cursor: pointer;
   /* Icon */
 }
-.tabs .tab-label:hover {
+.tab-label:hover {
   background: #e0e0e0;
 }
-.tabs .tab-label::after {
+.tab-label::after {
   content: "❯";
   width: 1em;
   height: 1em;
-  text-align: center;
+  text-align: left;
   transition: all 0.35s;
 }
-.tabs .tab-content {
+.tab-content {
   max-height: 0;
   padding: 0 1em;
   color: var(--background);
   background: white;
   transition: all 0.35s;
 }
-.tabs .tab-close {
+.tab-close {
   display: flex;
   justify-content: flex-end;
   padding: 1em;
@@ -453,18 +453,20 @@ img {
   background: var(--buttonhover);
   cursor: pointer;
 }
-.tabs .tab-close:hover {
+.tab-close:hover {
   background: #e0e0e0;
 }
-.tabs input:checked + .tab-label {
+
+input:checked + .tab-label {
   background: #e0e0e0;
 }
-.tabs input:checked + .tab-label::after {
+input:checked + .tab-label::after {
   transform: rotate(90deg);
 }
-.tabs input:checked ~ .tab-content {
+input:checked ~ .tab-content {
   max-height: 100vh;
   padding: 1em;
+  text-align: left;
 }
 
 /* =============
