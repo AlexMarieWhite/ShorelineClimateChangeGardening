@@ -119,12 +119,10 @@ function topFunction() {
 }
 
 function hideMenu() {
-    let DropDownMenus = document.getElementsByClassName("dropdown-content");
-    DropDownMenus.forEach((menu) => {
-        if (menu.style.display === "block") {
-            menu.style.display = "none"
-        }
-    });
+    let dropDownMenu = document.getElementsByClassName("dropdown-content")[0];
+    if (dropDownMenu.style.display != "none") {
+        dropDownMenu.style.display = "none";
+    }
 }
 </script>
 
