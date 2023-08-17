@@ -98,7 +98,9 @@
 </body>
 
 <script>
-   // Get the button
+document.onclick = function() {hideMenu()};
+
+// Get the button
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -116,6 +118,11 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+function hideMenu() {
+    let DropDownMenus = document.getElementsByClassName("dropdown-content");
+    DropDownMenus.forEach((menu) => menu.style.display = "none");
 }
 </script>
 
