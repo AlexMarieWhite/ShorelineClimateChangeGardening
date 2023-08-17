@@ -13,6 +13,10 @@ p {
 
 }
 
+img {
+  max-width: 60%;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto 75% auto;
