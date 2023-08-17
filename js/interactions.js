@@ -1,16 +1,1 @@
-document.getElementById("myBtn").addEventListener("click", function() {ScrollToTop()});
-window.onscroll = function() {ShowHideBackToTop()};
-
-function ShowHideBackToTop() {
-    let mybutton = document.getElementById("myBtn");
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
-
-function ScrollToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+function ShowHideBackToTop(){let o=document.getElementById("myBtn");document.body.scrollTop>20||document.documentElement.scrollTop>20?o.style.display="block":o.style.display="none"}function ScrollToTop(){document.body.scrollTop=0,document.documentElement.scrollTop=0}document.getElementById("myBtn").addEventListener("click",(function(){ScrollToTop()})),window.onscroll=function(){ShowHideBackToTop()};
