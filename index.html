@@ -41,7 +41,7 @@
 
 
         <div class="dropdown">
-            <button class="dropbtn"><span style="font-size:20px">&#127804;</span>Home</button>
+            <button class="dropbtn" onclick="hideMenu()"><span style="font-size:20px">&#127804;</span>Home</button>
             <div class="dropdown-content">
               <a href="#">Guides</a>
                 <ul>
@@ -98,8 +98,6 @@
 </body>
 
 <script>
-document.onclick = function() {hideMenu()};
-
 // Get the button
 let mybutton = document.getElementById("myBtn");
 
@@ -122,7 +120,11 @@ function topFunction() {
 
 function hideMenu() {
     let DropDownMenus = document.getElementsByClassName("dropdown-content");
-    DropDownMenus.forEach((menu) => menu.style.display = "none");
+    DropDownMenus.forEach((menu) => {
+        if (menu.style.display === "block") {
+            menu.style.display = "none"
+        }
+    });
 }
 </script>
 
