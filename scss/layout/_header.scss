@@ -22,9 +22,8 @@
       //dropdown button styling
       .dropbtn {
         background-color: var(--buttonhover);
-        color: black;
+        color: var(--background);
         padding: 16px;
-        border: none;
         border-radius: 5px;
       }
 
@@ -32,6 +31,7 @@
       .dropdown {
         position: relative;
         display: inline-block;
+        margin: 1%;
       }
 
       //dropdown content styling

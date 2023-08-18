@@ -563,14 +563,14 @@ textarea {
   }
   .header .dropbtn {
     background-color: var(--buttonhover);
-    color: black;
+    color: var(--background);
     padding: 16px;
-    border: none;
     border-radius: 5px;
   }
   .header .dropdown {
     position: relative;
     display: inline-block;
+    margin: 1%;
   }
   .header .dropdown-content {
     display: none;
