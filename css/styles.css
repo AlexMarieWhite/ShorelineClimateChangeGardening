@@ -346,7 +346,7 @@ img {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto 75% auto;
+  grid-template-columns: auto 90% auto;
   gap: 10px;
   padding: 10px;
 }
@@ -422,8 +422,8 @@ input {
 .tab-label {
   display: flex;
   justify-content: space-between;
+  padding: 1em;
   text-align: left;
-  padding: 3%;
   background: var(--buttonhover);
   font-weight: bold;
   cursor: pointer;
@@ -466,7 +466,7 @@ input:checked + .tab-label::after {
 }
 input:checked ~ .tab-content {
   max-height: 100%;
-  padding: 3%;
+  padding: 1em;
   text-align: left;
 }
 
@@ -475,6 +475,14 @@ input:checked ~ .tab-content {
 ============= */
 body {
   color: var(--font);
+}
+
+#homepagetext p {
+  text-align: center;
+}
+
+.footer p {
+  text-align: center;
 }
 
 @media only screen and (max-width: 62em) {

@@ -6,6 +6,18 @@ body {
     color: var(--font);
 }
 
+#homepagetext {
+    p {
+        text-align: center;
+    }
+}
+
+.footer {
+    p {
+        text-align: center;
+    }
+}
+
 
 @media only screen and (max-width: 62em) {
 
