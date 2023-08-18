@@ -479,11 +479,6 @@ body {
   font-size: 1.25em;
 }
 
-.footer p {
-  text-align: center;
-  font-size: 1em;
-}
-
 @media only screen and (max-width: 62em) {
   h1 {
     font-size: 2.5em;
@@ -497,7 +492,11 @@ body {
     text-align: left;
   }
   .dropdown {
-    font-size: 1em;
+    font-size: 1.25em;
+  }
+  .footer p {
+    text-align: center;
+    font-size: 0.75em;
   }
 }
 @media only screen and (min-width: 63em) {
@@ -517,6 +516,10 @@ body {
   }
   li {
     font-size: 1.25em;
+  }
+  .footer p {
+    text-align: center;
+    font-size: 1em;
   }
 }
 /* =============
@@ -571,6 +574,7 @@ textarea {
     position: relative;
     display: inline-block;
     margin: 1%;
+    border: none;
   }
   .header .dropdown-content {
     display: none;
