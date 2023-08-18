@@ -79,6 +79,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/flowersinvase.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/flowersinvase.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/herbhand.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -178,11 +188,41 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/summerxeriscape.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/summerxeriscape.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/xeriscape.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/xeriscape.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/xeriscapeflowers.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/xeriscapeflowers.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/xeriscapewinter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/xeriscapewinter.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
