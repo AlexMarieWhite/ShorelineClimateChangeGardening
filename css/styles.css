@@ -416,7 +416,7 @@ input {
 .tab {
   width: 100%;
   border-radius: 5px;
-  color: white;
+  color: #f9f9f9;
   overflow: hidden;
 }
 .tab-label {
