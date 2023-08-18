@@ -288,14 +288,6 @@
       "oAP" : "\/meadowscapesandcloverlawns.html",
       "oF" : 0
     },
-    "\/nativeplanting.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/nativeplanting.html",
-      "oF" : 0
-    },
     "\/raingardens.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -468,14 +460,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/summerwatering.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/summerwatering.html",
-      "oF" : 0
     },
     "\/wheretobuylocally.html" : {
       "cB" : 0,
