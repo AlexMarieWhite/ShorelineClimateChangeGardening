@@ -79,6 +79,26 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/herbhand.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/herbhand.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/herbsinaluminumcans.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/herbsinaluminumcans.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/homepageimage.jpeg" : {
       "ft" : 16384,
       "iS" : 1415649,
@@ -120,6 +140,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/patiopollinatorgarden.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/patiopollinatorgarden.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
