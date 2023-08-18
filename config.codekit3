@@ -188,6 +188,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/raingardengraphic.png" : {
+      "ft" : 32768,
+      "iS" : 1890437,
+      "oA" : 0,
+      "oAP" : "\/img\/raingardengraphic.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/raingardenillustration.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/raingardenillustration.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/summerxeriscape.svg" : {
       "ft" : 2097152,
       "miP" : 0,
