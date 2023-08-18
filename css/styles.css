@@ -353,14 +353,10 @@ img {
 .grid-container {
   display: grid;
   grid-template-columns: auto 90% auto;
-  gap: 10px;
-  padding: 10px;
 }
 
 .grid-container > div {
   text-align: center;
-  padding: 3%;
-  font-size: 30px;
 }
 
 .header {
@@ -381,7 +377,6 @@ img {
   bottom: 5%;
   right: 5%;
   z-index: 99;
-  font-size: 18px;
   border: none;
   outline: none;
   background-color: var(--font);
@@ -480,20 +475,25 @@ body {
   text-align: center;
 }
 
+#myBtn {
+  font-size: 1.25em;
+}
+
 .footer p {
   text-align: center;
+  font-size: 1em;
 }
 
 @media only screen and (max-width: 62em) {
   h1 {
-    font-size: 1.25em;
+    font-size: 2.5em;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1.25em;
     text-align: left;
   }
-  p {
-    font-size: 0.75em;
+  p, label {
+    font-size: 1.25em;
     text-align: left;
   }
   .dropdown {
@@ -502,14 +502,14 @@ body {
 }
 @media only screen and (min-width: 63em) {
   h1 {
-    font-size: 1.5em;
+    font-size: 4em;
   }
   h2 {
-    font-size: 1.25em;
+    font-size: 2em;
     text-align: left;
   }
-  p {
-    font-size: 1em;
+  p, label {
+    font-size: 2em;
     text-align: left;
   }
   ul {
@@ -554,13 +554,6 @@ textarea {
     padding: 1%;
     background-color: var(--background);
     opacity: 0.95;
-    /* Style The Dropdown Button */
-    /* The container <div> - needed to position the dropdown content */
-    /* Dropdown Content (Hidden by Default) */
-    /* Links inside the dropdown */
-    /* Change color of dropdown links on hover */
-    /* Show the dropdown menu on hover */
-    /* Change the background color of the dropdown button when the dropdown content is shown */
   }
   .header img {
     width: 25%;
@@ -613,13 +606,6 @@ textarea {
     padding: 1%;
     background-color: var(--background);
     opacity: 0.95;
-    /* Style The Dropdown Button */
-    /* The container <div> - needed to position the dropdown content */
-    /* Dropdown Content (Hidden by Default) */
-    /* Links inside the dropdown */
-    /* Change color of dropdown links on hover */
-    /* Show the dropdown menu on hover */
-    /* Change the background color of the dropdown button when the dropdown content is shown */
   }
   .header img {
     max-width: 15%;
@@ -665,12 +651,11 @@ textarea {
   }
 }
 @media only screen and (min-width: 62em) {
-  .header {
-    padding: 1%;
-  }
   .header img {
     float: left;
     max-width: 15%;
+    margin-top: 1%;
+    margin-left: 3%;
   }
   .header .dropdown {
     display: none;
@@ -678,6 +663,7 @@ textarea {
   .header .horizontalnavigationmenu li {
     float: left;
     margin-top: 5%;
+    margin-left: 1%;
   }
   .header .horizontalnavigationmenu a {
     display: block;
@@ -688,9 +674,6 @@ textarea {
   }
   .header .horizontalnavigationmenu ul {
     list-style-type: none;
-    margin: 0px;
-    padding-left: 5%;
-    overflow: hidden;
   }
   .header .horizontalnavigationmenu li a, .header .horizontalnavigationmenu .dropbtn {
     display: inline-block;
