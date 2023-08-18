@@ -406,7 +406,6 @@ input {
   margin-left: 1em;
 }
 
-/* Accordion styles */
 .tabs {
   border-radius: 8px;
   overflow: hidden;
@@ -430,7 +429,7 @@ input {
   /* Icon */
 }
 .tab-label:hover {
-  background: #e0e0e0;
+  background: #9B656F;
 }
 .tab-label::after {
   content: "❯";
@@ -443,7 +442,7 @@ input {
   max-height: 0;
   padding: 0 1em;
   color: var(--background);
-  background: white;
+  background: #f9f9f9;
   transition: all 0.35s;
 }
 .tab-close {
@@ -455,11 +454,11 @@ input {
   cursor: pointer;
 }
 .tab-close:hover {
-  background: #e0e0e0;
+  background: #9B656F;
 }
 
 input:checked + .tab-label {
-  background: #e0e0e0;
+  background: #9B656F;
 }
 input:checked + .tab-label::after {
   transform: rotate(90deg);

@@ -85,8 +85,7 @@ img {
       }
     }
   }
-  
-  /* Accordion styles */
+
   .tabs {
     border-radius: 8px;
     overflow: hidden;
@@ -107,7 +106,7 @@ img {
       cursor: pointer;
       /* Icon */
       &:hover {
-        background: darken(#f9f9f9, 10%);
+        background: #9B656F;
       }
       &::after {
         content: "\276F";
@@ -121,7 +120,7 @@ img {
       max-height: 0;
       padding: 0 1em;
       color: var(--background);
-      background: white;
+      background: #f9f9f9;
       transition: all .35s;
     }
     &-close {
@@ -132,7 +131,7 @@ img {
       background: var(--buttonhover);
       cursor: pointer;
       &:hover {
-        background: darken(#f9f9f9, 10%);
+        background: #9B656F;
       }
     }
   }
@@ -140,7 +139,7 @@ img {
   // :checked
   input:checked {
     + .tab-label {
-      background: darken(#f9f9f9, 10%);
+      background: #9B656F;
       &::after {
         transform: rotate(90deg);
       }
