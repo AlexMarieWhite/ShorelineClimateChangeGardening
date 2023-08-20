@@ -79,6 +79,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/before.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/before.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/flowersinvase.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -200,6 +210,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/patiopollinatorgarden.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/products.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/products.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
