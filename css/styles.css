@@ -490,6 +490,7 @@ body {
   p, label {
     font-size: 1.25em;
     text-align: left;
+    padding: 2%;
   }
   .dropdown {
     font-size: 1.25em;
@@ -510,6 +511,7 @@ body {
   p, label {
     font-size: 2em;
     text-align: left;
+    padding: 1.5%;
   }
   ul {
     font-size: 1.25em;

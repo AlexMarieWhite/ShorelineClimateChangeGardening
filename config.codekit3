@@ -142,6 +142,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/leaves.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/leaves.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/logo.jpg" : {
       "ft" : 16384,
       "iS" : 384878,
@@ -170,6 +180,26 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/patiopollinatorgarden.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/Puddle.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/Puddle.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/rabbits.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/rabbits.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
