@@ -371,6 +371,79 @@ img {
   text-align: center;
 }
 
+/* =============
+    Typography
+============= */
+body {
+  color: var(--font);
+}
+
+#homepagetext p {
+  text-align: center;
+}
+
+#myBtn {
+  font-size: 1.25em;
+}
+
+a {
+  color: var(--buttonhover);
+}
+
+a:hover {
+  color: #f9f9f9;
+  background-color: #9B656F;
+}
+
+@media only screen and (max-width: 62em) {
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.25em;
+    text-align: left;
+  }
+  p, label {
+    font-size: 1.25em;
+    text-align: left;
+    padding: 2%;
+  }
+  .dropdown {
+    font-size: 1.25em;
+  }
+  .footer p {
+    text-align: center;
+    font-size: 0.75em;
+  }
+}
+@media only screen and (min-width: 63em) {
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 2em;
+    text-align: left;
+  }
+  p, label {
+    font-size: 2em;
+    text-align: left;
+    padding: 0.5%;
+    padding-left: 2%;
+  }
+  ul {
+    font-size: 1.25em;
+  }
+  li {
+    font-size: 1.25em;
+  }
+  .footer p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+/* =============
+    Buttons
+============= */
 #myBtn {
   display: none;
   position: fixed;
@@ -464,70 +537,6 @@ input:checked ~ .tab-content {
   text-align: left;
 }
 
-/* =============
-    Typography
-============= */
-body {
-  color: var(--font);
-}
-
-#homepagetext p {
-  text-align: center;
-}
-
-#myBtn {
-  font-size: 1.25em;
-}
-
-@media only screen and (max-width: 62em) {
-  h1 {
-    font-size: 2.5em;
-  }
-  h2 {
-    font-size: 1.25em;
-    text-align: left;
-  }
-  p, label {
-    font-size: 1.25em;
-    text-align: left;
-    padding: 2%;
-  }
-  .dropdown {
-    font-size: 1.25em;
-  }
-  .footer p {
-    text-align: center;
-    font-size: 0.75em;
-  }
-}
-@media only screen and (min-width: 63em) {
-  h1 {
-    font-size: 4em;
-  }
-  h2 {
-    font-size: 2em;
-    text-align: left;
-  }
-  p, label {
-    font-size: 2em;
-    text-align: left;
-    padding: 0.5%;
-    padding-left: 2%;
-  }
-  ul {
-    font-size: 1.25em;
-  }
-  li {
-    font-size: 1.25em;
-  }
-  .footer p {
-    text-align: center;
-    font-size: 1em;
-  }
-}
-/* =============
-    Buttons
-============= */
 /* =============
     Forms
 ============= */
