@@ -53,6 +53,16 @@
       "oAP" : "\/freegardeningresources.html",
       "oF" : 0
     },
+    "\/img\/2month.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/2month.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/alexmariewhite_logo_offwhite_vegetables_flowers_sunrays_84d3fcdf-d3b1-42e9-9df8-be7019134419.png" : {
       "ft" : 32768,
       "iS" : 876699,
@@ -84,6 +94,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/before.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/dirt.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/dirt.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -195,11 +215,31 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/meadowscape.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/meadowscape.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/meadowscapeillustration.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/meadowscapeillustration.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/mow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/mow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -276,6 +316,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/raingardenillustration.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/seed.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/seed.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -392,6 +442,16 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/meadowscape.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/meadowscape.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/meadowscapesandcloverlawns.html" : {
       "cB" : 0,
