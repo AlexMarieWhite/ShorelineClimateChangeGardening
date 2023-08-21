@@ -379,7 +379,7 @@ img {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: var(--font);
+  background-color: var(--buttonhover);
   color: black;
   cursor: pointer;
   padding: 15px;
@@ -388,7 +388,7 @@ img {
 }
 
 #myBtn:hover {
-  background-color: var(--buttonhover);
+  background-color: #9B656F;
 }
 
 input {
@@ -511,7 +511,8 @@ body {
   p, label {
     font-size: 2em;
     text-align: left;
-    padding: 1.5%;
+    padding: 0.5%;
+    padding-left: 2%;
   }
   ul {
     font-size: 1.25em;

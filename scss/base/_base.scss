@@ -57,7 +57,7 @@ img {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: var(--font);
+    background-color: var(--buttonhover);
     color: black;
     cursor: pointer;
     padding: 15px;
@@ -66,7 +66,7 @@ img {
   }
   
   #myBtn:hover {
-    background-color: var(--buttonhover);
+    background-color: #9B656F;
   }
 
   //accordian styling
