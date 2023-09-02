@@ -15,7 +15,6 @@
     <div class="horizontalnavigationmenu">
 
             <img src="img/logo.svg" alt="Logo.">
-        </a>
 
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -52,8 +51,6 @@
                 <a href="about.html">About</a>
             </div>
           </div>
-          
-        </div>
 
     </header>
 
@@ -73,7 +70,7 @@
         <p>Below are a list of available cost resources and tips for stretching your dollar when it comes to climate-proofing your garden.</p>
         <p><strong><a href="https://www.shorelinewa.gov/our-city/environment/trees/communi-trees">1. Communi-Tree Program</a></strong></p>
         <p>The Shoreline Communi-Tree Program is a fantastic initiative that allows Shoreline residents to enhance their neighborhoods by planting trees. Trees not only beautify the landscape but also improve air quality and provide habitat for wildlife. By participating in this program, you can receive free trees for planting in your yard.</p>
-        <img src="img/communi-tree 1.svg" alt="Illustration of the benefits of trees.">
+        <img src="img/communi-tree.svg" alt="Illustration of the benefits of trees.">
         <p><strong><a href="https://www.shorelinewa.gov/government/departments/public-works/surface-water-utility/get-involved/soak-it-up-rebate-program">2. Soak-It-Up Rain Gardens Rebate Program</a></strong></p>
         <p>Shoreline is committed to sustainable water management, and the Soak-It-Up Rain Gardens Rebate Program is a testament to that commitment. This program encourages residents to create rain gardens that help manage stormwater and prevent pollution in local water bodies. By participating, you can receive rebates for implementing rain gardens on your property. </p>
         <img src="img/soakitup.svg" alt="Soak It Up Program Logo.">
@@ -105,29 +102,30 @@
          
     </footer>
 
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      
+      </script>
+
 </body>
 
-<script>
-// Get the button
-let mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-</script>
 
 </html>
